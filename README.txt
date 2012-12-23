@@ -1,5 +1,6 @@
 hhblog README
 ==================
+The blog that powers housewifehacker.com
 
 Getting Started
 ---------------
@@ -11,4 +12,3 @@ Getting Started
 - $venv/bin/initialize_hhblog_db development.ini
 
 - $venv/bin/pserve development.ini
-
