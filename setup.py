@@ -12,11 +12,12 @@ requires = [
     'transaction',
     'pyramid_tm',
     'pyramid_debugtoolbar',
-    'deform_bootstrap'
+    'deform_bootstrap',
     'zope.sqlalchemy',
     'waitress',
     'hiero',
     'horus',
+    'pygments'
 ]
 
 setup(name='hhblog',

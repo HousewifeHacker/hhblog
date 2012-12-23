@@ -151,6 +151,7 @@ def main():
                     category=category,
                     published_on=date,
                     is_published=status,
+                    markup='rst',
                     owner=admin
                 )
 

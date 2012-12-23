@@ -36,6 +36,8 @@ def main(global_config, **settings):
         override_with='hhblog:templates/entry_detail.mako'
     )
 
+    config.add_route('index',        'lkjalsdkj')
+
     config.add_static_view('static', 'static', cache_max_age=3600)
     config.scan()
     config.include('horus', route_prefix='auth')
